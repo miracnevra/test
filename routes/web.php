@@ -17,4 +17,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 // development 3
+//merhaba
 Route::get("/test",[\App\Http\Controllers\TestController::class, "index"]) ->name("test");
