@@ -9,7 +9,7 @@
 </head>
 <body>
 <div>
-    @for($i=1;$i<=5;$i++)
+    @for($i=1;$i<=10;$i++)
         <p>Hello World</p>
     @endfor
 </div>
